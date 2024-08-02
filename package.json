@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier . --write"
   },
   "dependencies": {
     "again": "^0.0.1",
@@ -20,6 +21,7 @@
   },
   "devDependencies": {
     "postcss": "^8",
+    "prettier": "3.3.3",
     "tailwindcss": "^3.4.1"
   }
 }
